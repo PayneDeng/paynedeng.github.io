@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 佩恩的博客</title>
-    <link>https://example.org/post/</link>
+    <link>https://dengpan.xyz/post/</link>
     <description>Recent content in Posts on 佩恩的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Sat, 30 Nov 2019 00:22:26 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dengpan.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何用Hugo搭建博客</title>
-      <link>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://dengpan.xyz/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 30 Nov 2019 00:22:26 +0800</pubDate>
       
-      <guid>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://dengpan.xyz/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>很多语言都可以搭建博客，JS实现的博客生成器叫Hexo（很难用），而Hugo是通过Go语言实现的一个博客生成器，它有个特点，很快，所以今天我用简单的语句就尝试教大家如何在Mac系统下用Hugo搭建一个博客。毕竟前端大师方方说过：
  会抄代码就能搭建博客
  1.安装Hugo 打开你的iTerm，输入如下代码安装Hugo
@@ -31,19 +31,19 @@ brew install hugo hugo version  你会得到一个hugo的版本号，我目前�
     
     <item>
       <title>开博大吉</title>
-      <link>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>https://dengpan.xyz/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Tue, 26 Nov 2019 01:37:42 +0800</pubDate>
       
-      <guid>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <guid>https://dengpan.xyz/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
       <description>大噶猴 我的博客开通了，希望我能写出好文章给大家看。</description>
     </item>
     
     <item>
       <title>第二篇博客</title>
-      <link>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://dengpan.xyz/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 25 Nov 2019 02:33:23 +0800</pubDate>
       
-      <guid>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://dengpan.xyz/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>又见面了 这是第二篇博客。</description>
     </item>
     
