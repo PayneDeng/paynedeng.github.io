@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 佩恩的博客</title>
-    <link>http://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 佩恩的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Tue, 26 Nov 2019 01:37:42 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 30 Nov 2019 00:22:26 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>开博大吉</title>
-      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
-      <pubDate>Tue, 26 Nov 2019 01:37:42 +0800</pubDate>
+      <title>如何用Hugo搭建博客</title>
+      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 30 Nov 2019 00:22:26 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大家好 我的博客开通了，希望我能写出好文章给大家看。</description>
+      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>很多语言都可以搭建博客，JS实现的博客生成器叫Hexo（很难用），而Hugo是通过Go语言实现的一个博客生成器，它有个特点，很快，所以今天我</description>
     </item>
     
   </channel>
