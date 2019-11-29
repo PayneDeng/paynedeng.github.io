@@ -2,186 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>佩恩的博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on 佩恩的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Sat, 30 Nov 2019 00:22:26 +0800</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://example.org/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      
-        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
-
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-      
+      <guid>https://example.org/about/</guid>
+      <description>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+ Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
       <title>如何用Hugo搭建博客</title>
-      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 30 Nov 2019 00:22:26 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      
-        <description>
-
-&lt;p&gt;很多语言都可以搭建博客，JS实现的博客生成器叫Hexo（很难用），而Hugo是通过Go语言实现的一个博客生成器，它有个特点，很快，所以今天我用简单的语句就尝试教大家如何在Mac系统下用Hugo搭建一个博客。毕竟前端大师方方说过：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;会抄代码就能搭建博客&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;1-安装hugo&#34;&gt;1.安装Hugo&lt;/h1&gt;
-
-&lt;p&gt;打开你的iTerm，输入如下代码安装Hugo&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install hugo
-hugo version
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;你会得到一个hugo的版本号，我目前的版本是v0.59.1。&lt;/p&gt;
-
-&lt;h1 id=&#34;2-快速搭建博客&#34;&gt;2.快速搭建博客&lt;/h1&gt;
-
-&lt;h2 id=&#34;1-通过官方文档做出网站&#34;&gt;1.通过官方文档做出网站。&lt;/h2&gt;
-
-&lt;p&gt;进入&lt;a href=&#34;https://gohugo.io/&#34;&gt;官网&lt;/a&gt;，点击Quick Start。&lt;/p&gt;
-
-&lt;h2 id=&#34;2-创建一个新站点&#34;&gt;2.创建一个新站点&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site quickstart
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;3-添加一个主题&#34;&gt;3.添加一个主题&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;cd quickstart
-git init
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;4-创建你的第一篇文章&#34;&gt;4.创建你的第一篇文章&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new posts/my-first-post.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;格式如下：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-title: &amp;quot;My First Post&amp;quot;
-date: 2019-03-26T08:47:11+01:00
-draft: true
----
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;你可以在&lt;code&gt;---&lt;/code&gt;后面写下你的第一篇博客的内容。&lt;/p&gt;
-
-&lt;p&gt;注意：把&lt;code&gt;draft&lt;/code&gt;的值从&lt;code&gt;true&lt;/code&gt;变成&lt;code&gt;false&lt;/code&gt;意味着你该篇文章的状态从待发布变成了发布。&lt;/p&gt;
-
-&lt;h2 id=&#34;5-启动hugo服务器&#34;&gt;5.启动Hugo服务器&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;出现如下代码&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;                   | EN
-+------------------+----+
-  Pages            | 10
-  Paginator pages  |  0
-  Non-page files   |  0
-  Static files     |  3
-  Processed images |  0
-  Aliases          |  1
-  Sitemaps         |  1
-  Cleaned          |  0
-
-Total in 11 ms
-Watching for changes in /Users/bep/quickstart/{content,data,layouts,static,themes}
-Watching for config changes in /Users/bep/quickstart/config.toml
-Environment: &amp;quot;development&amp;quot;
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;你可以通过&lt;code&gt;http://localhost:1313/&lt;/code&gt;查看本地预览。&lt;/p&gt;
-
-&lt;h2 id=&#34;6-自定义主题&#34;&gt;6.自定义主题&lt;/h2&gt;
-
-&lt;h3 id=&#34;网站配置&#34;&gt;网站配置：&lt;/h3&gt;
-
-&lt;p&gt;打开&lt;code&gt;config.toml&lt;/code&gt;编辑：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;baseURL = &amp;quot;https://example.org/&amp;quot;
-languageCode = &amp;quot;en-us&amp;quot;
-title = &amp;quot;My New Hugo Site&amp;quot;
-theme = &amp;quot;ananke&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;languageCode&lt;/code&gt;的值建议改成&lt;code&gt;zh-Hans&lt;/code&gt;,&lt;code&gt;title&lt;/code&gt;就是你博客的房间名。&lt;/p&gt;
-
-&lt;h2 id=&#34;7-建立静态页面&#34;&gt;7.建立静态页面&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo -D
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;搭建完成，下面可以把它部署到你的网站上去了。&lt;/p&gt;
-
-&lt;p&gt;以上。&lt;/p&gt;
-</description>
-      
+      <guid>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>很多语言都可以搭建博客，JS实现的博客生成器叫Hexo（很难用），而Hugo是通过Go语言实现的一个博客生成器，它有个特点，很快，所以今天我用简单的语句就尝试教大家如何在Mac系统下用Hugo搭建一个博客。毕竟前端大师方方说过：
+ 会抄代码就能搭建博客
+ 1.安装Hugo 打开你的iTerm，输入如下代码安装Hugo
+brew install hugo hugo version  你会得到一个hugo的版本号，我目前的版本是v0.59.1。
+2.快速搭建博客 1.通过官方文档做出网站。 进入官网，点击Quick Start。
+2.创建一个新站点 hugo new site quickstart  3.添加一个主题 cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  4.创建你的第一篇文章 hugo new posts/my-first-post.md  格式如下：
+--- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true ---  你可以在---后面写下你的第一篇博客的内容。
+注意：把draft的值从true变成false意味着你该篇文章的状态从待发布变成了发布。
+5.启动Hugo服务器 hugo server -D  出现如下代码
+ | EN +------------------+----+ Pages | 10 Paginator pages | 0 Non-page files | 0 Static files | 3 Processed images | 0 Aliases | 1 Sitemaps | 1 Cleaned | 0 Total in 11 ms Watching for changes in /Users/bep/quickstart/{content,data,layouts,static,themes} Watching for config changes in /Users/bep/quickstart/config.</description>
     </item>
     
     <item>
       <title>开博大吉</title>
-      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Tue, 26 Nov 2019 01:37:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;大噶猴&#34;&gt;大噶猴&lt;/h1&gt;
-
-&lt;p&gt;我的博客开通了，希望我能写出好文章给大家看。&lt;/p&gt;
-</description>
-      
+      <guid>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <description>大噶猴 我的博客开通了，希望我能写出好文章给大家看。</description>
     </item>
     
     <item>
       <title>第二篇博客</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 25 Nov 2019 02:33:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      
-        <description>
-
-&lt;h1 id=&#34;又见面了&#34;&gt;又见面了&lt;/h1&gt;
-
-&lt;p&gt;这是第二篇博客。&lt;/p&gt;
-</description>
-      
+      <guid>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>又见面了 这是第二篇博客。</description>
     </item>
     
   </channel>
