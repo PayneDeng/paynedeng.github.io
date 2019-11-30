@@ -6,10 +6,37 @@
     <description>Recent content in Posts on 佩恩的QQ空间</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 Nov 2019 12:21:59 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2019 14:47:17 +0800</lastBuildDate>
     
 	<atom:link href="https://dengpan.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML常用标签</title>
+      <link>https://dengpan.xyz/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Sat, 30 Nov 2019 14:47:17 +0800</pubDate>
+      
+      <guid>https://dengpan.xyz/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>a标签 属性 href 网址  https://google.com
+ http://google.com
+ //google.com
+  路径  /a/b/c以及a/b/c
+ index.html以及./index.html
+  伪协议  javascript:代码;
+ mailto:邮箱
+ tel:手机号  id  href=#xxx  target 内置名字  _blank
+ _top
+ _parent
+ _self  程序员命名  window的name
+ iframe的name  download 作用 不是打开页面，是下载页面
+问题 不是所有浏览器都支持，尤其是手机浏览器可能不支持
+作用  跳转外部页面
+ 跳转内部锚点
+ 跳转到邮箱或电话等  img标签 作用 发出get请求，展示一张图片
+属性 alt/height/width/src
+事件 onload/onerror
+响应式 max-width: 100%</description>
+    </item>
     
     <item>
       <title>HTML入门笔记1</title>
