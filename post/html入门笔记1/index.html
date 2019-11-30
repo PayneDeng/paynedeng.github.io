@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>佩恩的QQ空间  | HTML入门笔记1</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>佩恩的QQ空间 | HTML入门笔记1</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
     <meta name="generator" content="Hugo 0.59.1" />
-    
-    
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
 
-    
-    
-      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
-    
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
 
-    
+    <link
+      href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css"
+      rel="stylesheet"
+    />
 
-    
-      
-    
-
-    
-    
     <meta property="og:title" content="HTML入门笔记1" />
-<meta property="og:description" content="内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
+    <meta
+      property="og:description"
+      content='
  HTML是由 Tim Berners-Lee 发明的。
  HTML起手式是 Emmet 感叹号，你可以在 VS code 中，新建一个index.html,再首页输入!,再按tab键得到如下代码
-&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
+&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8" /&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt; &lt;meta http-equiv="X-UA-Compatible" content="ie=edge" /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
  表章节的标签主要包括：  标题 h1~h6
 章节 setion
 文章 article
@@ -39,16 +31,28 @@
 主要内容 main
 旁支内容 aside
 划分 div
- 全剧属性主要包括：  class" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://dengpan.xyz/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/" />
-<meta property="article:published_time" content="2019-11-30T12:21:59+08:00" />
-<meta property="article:modified_time" content="2019-11-30T12:21:59+08:00" />
-<meta itemprop="name" content="HTML入门笔记1">
-<meta itemprop="description" content="内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
+ 全剧属性主要包括：  class'
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://dengpan.xyz/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/"
+    />
+    <meta
+      property="article:published_time"
+      content="2019-11-30T12:21:59+08:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2019-11-30T12:21:59+08:00"
+    />
+    <meta itemprop="name" content="HTML入门笔记1" />
+    <meta
+      itemprop="description"
+      content='内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
  HTML是由 Tim Berners-Lee 发明的。
  HTML起手式是 Emmet 感叹号，你可以在 VS code 中，新建一个index.html,再首页输入!,再按tab键得到如下代码
-&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
+&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8" /&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt; &lt;meta http-equiv="X-UA-Compatible" content="ie=edge" /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
  表章节的标签主要包括：  标题 h1~h6
 章节 setion
 文章 article
@@ -58,22 +62,22 @@
 主要内容 main
 旁支内容 aside
 划分 div
- 全剧属性主要包括：  class">
+ 全剧属性主要包括：  class'
+    />
 
+    <meta itemprop="datePublished" content="2019-11-30T12:21:59&#43;08:00" />
+    <meta itemprop="dateModified" content="2019-11-30T12:21:59&#43;08:00" />
+    <meta itemprop="wordCount" content="96" />
 
-<meta itemprop="datePublished" content="2019-11-30T12:21:59&#43;08:00" />
-<meta itemprop="dateModified" content="2019-11-30T12:21:59&#43;08:00" />
-<meta itemprop="wordCount" content="96">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="HTML入门笔记1"/>
-<meta name="twitter:description" content="内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
+    <meta itemprop="keywords" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="HTML入门笔记1" />
+    <meta
+      name="twitter:description"
+      content='内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
  HTML是由 Tim Berners-Lee 发明的。
  HTML起手式是 Emmet 感叹号，你可以在 VS code 中，新建一个index.html,再首页输入!,再按tab键得到如下代码
-&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
+&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8" /&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt; &lt;meta http-equiv="X-UA-Compatible" content="ie=edge" /&gt; &lt;title&gt;Document&lt;/title&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt; &lt;/html&gt;   此处建议把lang的属性值en替换成zh-CN
  表章节的标签主要包括：  标题 h1~h6
 章节 setion
 文章 article
@@ -83,90 +87,77 @@
 主要内容 main
 旁支内容 aside
 划分 div
- 全剧属性主要包括：  class"/>
-
+ 全剧属性主要包括：  class'
+    />
   </head>
 
   <body class="ma0 avenir bg-near-white">
-
-    
-   
-  
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="https://dengpan.xyz/" class="f3 fw2 hover-white no-underline white-90 dib">
-      佩恩的QQ空间
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="About page">
-              About
+    <header>
+      <div class="bg-black">
+        <nav class="pv3 ph3 ph4-ns" role="navigation">
+          <div class="flex-l justify-between items-center center">
+            <a
+              href="https://dengpan.xyz/"
+              class="f3 fw2 hover-white no-underline white-90 dib"
+            >
+              佩恩的QQ空间
             </a>
-          </li>
-          
-        </ul>
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-
-    <header class="mt4 w-100">
-      <p class="f6 b helvetica tracked">
-          
-        POSTS
-      </p>
-      <h1 class="f1 athelas mb1">HTML入门笔记1</h1>
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2019-11-30T12:21:59&#43;08:00">November 30, 2019</time>
-      
-      
+            <div class="flex-l items-center">
+              <ul class="pl0 mr3">
+                <li class="list f5 f4-ns fw4 dib pr3">
+                  <a
+                    class="hover-white no-underline white-90"
+                    href="/about/"
+                    title="About page"
+                  >
+                    About
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>内容里需要介绍
-HTML 是谁发明的
-HTML 起手应该写什么
-常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等）
-全局属性有哪些
-常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）</p>
+    <main class="pb7" role="main">
+      <article class="flex-l flex-wrap justify-between mw8 center ph3">
+        <header class="mt4 w-100">
+          <p class="f6 b helvetica tracked">
+            POSTS
+          </p>
+          <h1 class="f1 athelas mb1">HTML入门笔记1</h1>
 
-<ol>
-<li><p><code>HTML</code>是由 Tim Berners-Lee 发明的。</p></li>
+          <time
+            class="f6 mv4 dib tracked"
+            datetime="2019-11-30T12:21:59&#43;08:00"
+            >November 30, 2019</time
+          >
+        </header>
 
-<li><p><code>HTML</code>起手式是 Emmet 感叹号，你可以在 VS code 中，新建一个<code>index.html</code>,再首页输入<code>!</code>,再按<code>tab</code>键得到如下代码</p>
+        <section
+          class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"
+        >
+          <p>
+            内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么
+            常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside
+            等等） 全局属性有哪些
+            常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre
+            等等）
+          </p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
+          <ol>
+            <li>
+              <p><code>HTML</code>是由 Tim Berners-Lee 发明的。</p>
+            </li>
+
+            <li>
+              <p>
+                <code>HTML</code>起手式是 Emmet 感叹号，你可以在 VS code
+                中，新建一个<code>index.html</code>,再首页输入<code>!</code>,再按<code>tab</code>键得到如下代码
+              </p>
+
+              <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;UTF-8&quot; /&gt;
@@ -176,99 +167,86 @@ HTML 起手应该写什么
 &lt;/head&gt;
 &lt;body&gt;&lt;/body&gt;
 &lt;/html&gt;
-</code></pre></li>
-</ol>
+</code></pre>
+            </li>
+          </ol>
 
-<p>此处建议把<code>lang</code>的属性值<code>en</code>替换成<code>zh-CN</code></p>
+          <p>
+            此处建议把<code>lang</code>的属性值<code>en</code>替换成<code
+              >zh-CN</code
+            >
+          </p>
 
-<ol>
-<li>表章节的标签主要包括：</li>
-</ol>
+          <ol>
+            <li>表章节的标签主要包括：</li>
+          </ol>
 
-<p>标题 <code>h1~h6</code><br />
-   章节 <code>setion</code><br />
-   文章 <code>article</code><br />
-   段落 <code>p</code><br />
-   头部 <code>header</code><br />
-   脚部 <code>footer</code><br />
-   主要内容 <code>main</code><br />
-   旁支内容 <code>aside</code><br />
-   划分 <code>div</code></p>
+          <p>
+            标题 <code>h1~h6</code><br />
+            章节 <code>setion</code><br />
+            文章 <code>article</code><br />
+            段落 <code>p</code><br />
+            头部 <code>header</code><br />
+            脚部 <code>footer</code><br />
+            主要内容 <code>main</code><br />
+            旁支内容 <code>aside</code><br />
+            划分 <code>div</code>
+          </p>
 
-<ol>
-<li>全剧属性主要包括：</li>
-</ol>
+          <ol>
+            <li>全剧属性主要包括：</li>
+          </ol>
 
-<p><code>class</code><br />
-   <code>contenteditable</code><br />
-   <code>hidden</code><br />
-   <code>id</code><br />
-   <code>style</code><br />
-   <code>tabindex</code><br />
-   <code>title</code></p>
+          <p>
+            <code>class</code><br />
+            <code>contenteditable</code><br />
+            <code>hidden</code><br />
+            <code>id</code><br />
+            <code>style</code><br />
+            <code>tabindex</code><br />
+            <code>title</code>
+          </p>
 
-<ol>
-<li>常用的内容标签主要包括：</li>
-</ol>
+          <ol>
+            <li>常用的内容标签主要包括：</li>
+          </ol>
 
-<p><code>ol+li</code> 有序列表<br />
-   <code>ul+li</code> 无序列表<br />
-   <code>dl+dt+dd</code> 描述列表（图表）<br />
-   <code>pre</code> 预定义格式文本（保留格式）<br />
-   <code>hr</code> 段落级元素之间的主题转换（分割线）<br />
-   <code>br</code> 换行符号<br />
-   <code>a</code> 锚元素（可以通向网页、文件、同一页面内的位置、电子邮件地址或任何其他<code>URL</code>的超链接）<br />
-   <code>em</code> 着重阅读内容（语气重要）<br />
-   <code>strong</code> 重要阅读内容（本身重要）<br />
-   <code>code</code> 代码（等宽字体显示）<br />
-   <code>q</code> 引用元素（quote 缩写，短文本）<br />
-   <code>blockquote</code> 块级引用元素（段落级别，可空行）</p>
+          <p>
+            <code>ol+li</code> 有序列表<br />
+            <code>ul+li</code> 无序列表<br />
+            <code>dl+dt+dd</code> 描述列表（图表）<br />
+            <code>pre</code> 预定义格式文本（保留格式）<br />
+            <code>hr</code> 段落级元素之间的主题转换（分割线）<br />
+            <code>br</code> 换行符号<br />
+            <code>a</code>
+            锚元素（可以通向网页、文件、同一页面内的位置、电子邮件地址或任何其他<code>URL</code>的超链接）<br />
+            <code>em</code> 着重阅读内容（语气重要）<br />
+            <code>strong</code> 重要阅读内容（本身重要）<br />
+            <code>code</code> 代码（等宽字体显示）<br />
+            <code>q</code> 引用元素（quote 缩写，短文本）<br />
+            <code>blockquote</code> 块级引用元素（段落级别，可空行）
+          </p>
 
-<p>以上。</p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6">
-      
-      
-      </div>
-    </section>
+          <p>以上。</p>
+          <ul class="pa0"></ul>
+          <div class="mt6"></div>
+        </section>
 
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
+        <aside class="w-30-l mt6-l"></aside>
+      </article>
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://dengpan.xyz/" >
-    &copy; 2019 佩恩的QQ空间
-  </a>
-    <div>
+      <div class="flex justify-between">
+        <a
+          class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
+          href="https://dengpan.xyz/"
+        >
+          &copy; 2019 佩恩的QQ空间
+        </a>
+        <div></div>
+      </div>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-</div>
-  </div>
-</footer>
-
-    
-
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
-
-
+    <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
   </body>
 </html>
