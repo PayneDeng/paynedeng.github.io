@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>佩恩的博客</title>
-    <link>https://dengpan.xyz/</link>
-    <description>Recent content on 佩恩的博客</description>
+    <title>佩恩的QQ空间</title>
+    <link>https://example.org/</link>
+    <description>Recent content on 佩恩的QQ空间</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Sat, 30 Nov 2019 00:22:26 +0800</lastBuildDate>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 30 Nov 2019 12:21:59 +0800</lastBuildDate>
     
-	<atom:link href="https://dengpan.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://dengpan.xyz/about/</link>
+      <link>https://example.org/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>https://dengpan.xyz/about/</guid>
+      <guid>https://example.org/about/</guid>
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
+      <title>HTML入门笔记1</title>
+      <link>https://example.org/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Sat, 30 Nov 2019 12:21:59 +0800</pubDate>
+      
+      <guid>https://example.org/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B01/</guid>
+      <description>内容里需要介绍 HTML 是谁发明的 HTML 起手应该写什么 常用的表章节的标签有哪些，分别是什么意思（h1~h6、section、article、main、aside 等等） 全局属性有哪些 常用的内容标签有哪些，分别是什么意思（a、strong、em、code、pre 等等）
+ HTML是由 Tim Berners-Lee 发明的。
+ HTML起手式是 Emmet 感叹号，你可以在 VS code 中，新建一个index.html,再首页输入!,再按tab键得到如下代码
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot; /&amp;gt; &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot; /&amp;gt; &amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot; /&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;   此处建议把lang的属性值en替换成zh-CN
+ 表章节的标签主要包括：  标题 h1~h6
+章节 setion
+文章 article
+段落 p
+头部 header
+脚部 footer
+主要内容 main
+旁支内容 aside
+划分 div
+ 全剧属性主要包括：  class</description>
+    </item>
+    
+    <item>
       <title>如何用Hugo搭建博客</title>
-      <link>https://dengpan.xyz/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 30 Nov 2019 00:22:26 +0800</pubDate>
       
-      <guid>https://dengpan.xyz/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://example.org/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>很多语言都可以搭建博客，JS实现的博客生成器叫Hexo（很难用），而Hugo是通过Go语言实现的一个博客生成器，它有个特点，很快，所以今天我用简单的语句就尝试教大家如何在Mac系统下用Hugo搭建一个博客。毕竟前端大师方方说过：
  会抄代码就能搭建博客
  1.安装Hugo 打开你的iTerm，输入如下代码安装Hugo
@@ -42,19 +64,19 @@ brew install hugo hugo version  你会得到一个hugo的版本号，我目前�
     
     <item>
       <title>开博大吉</title>
-      <link>https://dengpan.xyz/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Tue, 26 Nov 2019 01:37:42 +0800</pubDate>
       
-      <guid>https://dengpan.xyz/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大噶猴 我的博客开通了，希望我能写出好文章给大家看。</description>
+      <guid>https://example.org/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <description>大家好 我的博客开通了，希望我能写出好文章给大家看。</description>
     </item>
     
     <item>
       <title>第二篇博客</title>
-      <link>https://dengpan.xyz/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 25 Nov 2019 02:33:23 +0800</pubDate>
       
-      <guid>https://dengpan.xyz/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://example.org/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>又见面了 这是第二篇博客。</description>
     </item>
     
